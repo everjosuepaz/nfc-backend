@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const souvenirRoutes = require('./routes/souvenirRoutes');
+const souvenirRoutes = require('./souvenirRoutes');
 
 const app = express();
 
