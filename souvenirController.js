@@ -1,4 +1,4 @@
-const supabase = require('../supabaseClient');
+const supabase = require('./supabaseClient');
 
 const BUCKET = process.env.BUCKET_NAME || 'souvenir-photos';
 
