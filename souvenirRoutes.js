@@ -1,6 +1,6 @@
 const express = require('express');
 const multer = require('multer');
-const { getSouvenir, activateSouvenir } = require('../controllers/souvenirController');
+const { getSouvenir, activateSouvenir } = require('./souvenirController');
 
 const router = express.Router();
 
